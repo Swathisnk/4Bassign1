@@ -24,7 +24,7 @@ A BookMyShow Clone built using React.js and Bootstrap for a seamless movie ticke
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/bookmyshow-clone.git
+git clone https://github.com/Swathisnk/bookmyshow-clone.git
 cd bookmyshow-clone
 
 
