@@ -1,0 +1,42 @@
+/* Primary Button - Book Now */
+.btn-primary-custom {
+    background-color: #e50914; /* Netflix Red (Similar to BookMyShow) */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .btn-primary-custom:hover {
+    background-color: #b20710;
+  }
+  
+  /* Secondary Button - Watch Trailer */
+  .btn-secondary-custom {
+    background-color: #2a2a2a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .btn-secondary-custom:hover {
+    background-color: #444;
+  }
+  
+  /* Disabled Button - Coming Soon */
+  .btn-disabled-custom {
+    background-color: #6c757d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  

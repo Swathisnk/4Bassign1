@@ -1,0 +1,9 @@
+.seat-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+  
+  .seat { background-color: gray; }
+  .seat-selected { background-color: green; }
+  
