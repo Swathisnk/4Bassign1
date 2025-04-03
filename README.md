@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+🎟️ BookMyShow Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A BookMyShow Clone built using React.js and Bootstrap for a seamless movie ticket booking experience.
 
-## Available Scripts
+📌 Features
+✅ Movie Search - Find movies using the search bar with an autocomplete dropdown.  
+✅ Ticket Availability Check - Shows whether tickets are available before navigating.  
+✅ Dark Mode Toggle - Switch between light and dark mode.  
+✅ Responsive Design - Works on all screen sizes.  
+✅ Navigation System - Browse through different categories like Movies, Events, Sports, and Offers.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ 🛠️ Technologies Used
+* React.js - Frontend framework
+* React Bootstrap - UI components
+* React Router - Page navigation
+* JavaScript (ES6+) - Dynamic interactions
+* CSS3 - Styling
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 Installation & Setup
 
-### `npm run build`
+1️⃣ Clone the Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/your-username/bookmyshow-clone.git
+cd bookmyshow-clone
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2️⃣ Install Dependencies
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3️⃣ Start the Development Server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📌 The app will run at http://localhost:3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+📂 Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bookmyshow-clone/
+│── src/
+│   ├── components/
+│   │   ├── NavbarComponent.js  # Navigation bar with search
+│   │   ├── MovieList.js        # Displays list of movies
+│   ├── pages/
+│   │   ├── Home.js             # Homepage
+│   │   ├── MovieDetails.js      # Individual movie page
+│   ├── assets/
+│   │   ├── images/             # Movie posters & logos
+│   ├── App.js                  # Main application file
+│   ├── index.js                # Entry point
+│── public/
+│── package.json
+│── README.md
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+ 🏗️ Future Enhancements
+🚀 Add backend support for real-time ticket booking.  
+🚀 Implement payment gateway integration.  
+🚀 Improve UI animations for a smoother experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
